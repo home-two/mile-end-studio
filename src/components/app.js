@@ -22,6 +22,10 @@ export default class App extends React.Component {
         </p>
 
         <p>
+          Located at the corner of Saint Laurent & Saint Viateur.
+        </p>
+
+        <p>
           $500/m for a space large enough to comfortably fit 2.
         </p>
 
