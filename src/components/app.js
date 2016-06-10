@@ -6,13 +6,9 @@ export default class App extends React.Component {
     return (
       <div
         style={{
-          padding: 20,
           textAlign: "center"
         }}
       >
-
-        <div>
-        </div>
         <h1>
           Bright, spacious studio in the heart of Mile End
         </h1>
