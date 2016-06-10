@@ -4,8 +4,15 @@ import React from "react"
 export default class App extends React.Component {
   render () {
     return (
-      <div>
-      
+      <div
+        style={{
+          padding: 20,
+          textAlign: "center"
+        }}
+      >
+
+        <div>
+        </div>
         <h1>
           Bright, spacious studio in the heart of Mile End
         </h1>
@@ -15,21 +22,28 @@ export default class App extends React.Component {
         </p>
 
         <p>
-          $500/m for an X sq foot space large enough for two.
+          $500/m for a space large enough to comfortably fit 2.
         </p>
 
         <p>
-          Email James: <a href="mailto:j@presstube.com">j@presstube.com</a>
-          <br/>
-          or
-          <br/>
-          Phone Luc: 514.424.2363
+          Email James: <a href="mailto:j@presstube.com">j@presstube.com</a>, or phone Luc: 514.424.2363.
         </p>
 
-        <img src="assets/corner.jpg"/>
-        <img src="assets/kitchen.jpg"/>
-        <img src="assets/center.jpg"/>
-        <img src="assets/exterior.jpg"/>
+        <div>
+          <img src="assets/corner.jpg"/>
+        </div>
+        <div>
+          <img src="assets/kitchen.jpg"/>
+        </div>
+        <div>
+          <img src="assets/center.jpg"/>
+        </div>
+        <div>
+          <img src="assets/exterior.jpg"/>
+        </div>
+        <div>
+          <img src="assets/exterior-corner.jpg"/>
+        </div>
       </div>
     )
   }
